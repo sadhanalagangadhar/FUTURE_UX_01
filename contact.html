@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Tell NeatNest about your home and request a tailored cleaning quote.">
+  <title>Get a Quote | NeatNest Cleaning</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">A little more breathing room starts at home. <a href="contact.html">Get your free quote →</a></div>
+  <header class="site-header"><a class="brand" href="index.html"><span class="brand-mark">n</span><span>neatnest<span class="brand-dot">.</span><small>HOME CARE, REIMAGINED</small></span></a><button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button><nav class="nav-links" aria-label="Main navigation"><a href="index.html">Home</a><a href="services.html">Services</a><a class="active" href="contact.html">Contact</a><a class="button button-dark nav-cta" href="#quote-form">Get a free quote <span>↗</span></a></nav></header>
+  <main>
+    <section class="contact-hero container"><div class="contact-intro"><div class="eyebrow"><span class="eyebrow-line"></span> LET'S MAKE SPACE FOR YOU</div><h1>Tell us about<br><em>your space.</em></h1><p>Share a few details and we'll help you find the right clean. No pressure, just a thoughtful place to start.</p><div class="contact-promise"><span class="promise-icon">✳</span><div><strong>A clear answer, not a sales pitch.</strong><small>We'll use your details to understand what you need.</small></div></div><div class="contact-detail-list"><div><span class="contact-symbol">✉</span><div><small>EMAIL</small><strong>hello@neatnest.example</strong></div></div><div><span class="contact-symbol">◷</span><div><small>RESPONSE HOURS</small><strong>Mon–Sat, 9:00 AM–6:00 PM</strong></div></div><div><span class="contact-symbol">⌂</span><div><small>SERVICE AREA</small><strong>Your local neighbourhood</strong></div></div></div></div>
+      <div class="form-card" id="quote-form"><div class="form-card-heading"><span class="form-step">YOUR QUOTE REQUEST</span><span class="form-progress"><i></i></span><h2>Let's get to know<br>your cleaning needs.</h2><p>Fields marked * are required.</p></div>
+        <form id="quoteRequest">
+          <div class="form-row"><label>First name *<input name="firstName" autocomplete="given-name" required placeholder="e.g. Priya"></label><label>Last name<input name="lastName" autocomplete="family-name" placeholder="e.g. Sharma"></label></div>
+          <label>Email address *<input type="email" name="email" autocomplete="email" required placeholder="you@example.com"></label>
+          <label>What kind of clean do you need? *<select name="service" required><option value="">Choose a service</option><option>Regular home clean</option><option>Deep clean</option><option>Move-in / move-out</option><option>Not sure yet</option></select></label>
+          <div class="form-row"><label>Home size<select name="homeSize"><option value="">Select size</option><option>Studio / 1 bedroom</option><option>2–3 bedrooms</option><option>4+ bedrooms</option></select></label><label>Preferred timing<select name="timing"><option value="">Choose timing</option><option>As soon as possible</option><option>Within 1–2 weeks</option><option>Just exploring</option></select></label></div>
+          <label>Anything we should know?<textarea name="notes" rows="3" placeholder="Your priorities, preferred days, or questions…"></textarea></label>
+          <label class="consent"><input type="checkbox" required><span>I agree that NeatNest may use these details to respond to my enquiry. *</span></label>
+          <button class="button button-primary form-submit" type="submit">Request my quote <span>↗</span></button>
+          <p class="form-note">This concept form demonstrates the enquiry flow. It does not send data to a server.</p>
+          <div class="form-success" id="formSuccess" role="status" aria-live="polite" hidden><strong>Thanks — your enquiry is ready!</strong><span>This is a demo confirmation. No information has been sent.</span></div>
+        </form>
+      </div>
+    </section>
+    <section class="contact-bottom"><div class="container contact-bottom-inner"><div><div class="eyebrow">NO TWO HOMES ARE THE SAME</div><h2>Your priorities<br><em>come first.</em></h2></div><p>Tell us what matters most. We'll use your notes to shape a clear, tailored quote and help you understand the next step.</p><a class="text-link" href="services.html">Review our services →</a></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-main"><a class="brand brand-footer" href="index.html"><span class="brand-mark">n</span><span>neatnest<span class="brand-dot">.</span><small>HOME CARE, REIMAGINED</small></span></a><p>Thoughtful cleaning for the place that matters most.</p><div class="footer-links"><a href="index.html">Home</a><a href="services.html">Services</a><a href="contact.html">Contact</a></div></div><div class="container footer-bottom"><span>© 2026 NeatNest Cleaning — Concept project for UI/UX portfolio.</span><span>Designed with care. Built for clarity.</span></div></footer><script src="script.js"></script>
+</body></html>
